@@ -8,7 +8,7 @@ body{
     margin: 0;
     padding: 0;
 }
-
+/* inizio header  */
 header{
     min-height: 70px;
 }
@@ -120,71 +120,67 @@ header{
     color: white;
 
 }
+/* fine header  */
 
-
-
-
-.main-first-section, .main-third-section{
+/* inizio main  */
+.container{
     width: 70%;
     margin: 0 auto;
-    padding: 50px 0;
-    margin-top: 30px;
+    padding: 250px 0;
+
+
 }
 
 
-
-.col-lightblue{
+.img-space{
     width: 60%;
-    background-color: aqua;
-    height: 200px;
     
 }
 
-.col-violet{
+.text-space{
     width:40%;
-    background-color: blueviolet;
-    height: 200px;
+    
 }
 
-.img-first-section img{
-    width: 900px
+.img-space img{
+    width: 900px;
 }
 
-.text-first-section{
-    width: 40%;
-    text-align: left
-}
 
-.text-first-section h1{
+
+.text-space h1{
     padding-top: 50px;
     font-size: 55px;
-    margin-left: 200px;
+    text-align: left;
+
     
 }
 
-.text-first-section p{
+.first, .third{
+    margin-left: 150px;
+}
+
+.text-space p{
     text-align: left;
     font-size: 25px;
-    margin-left: 200px;
     margin-top: 50px;
 
 }
 
 .background-grey{
-    background-color: lightgray;
+    background-color: #f6f6f6
 }
 
-.main-second-section{
-    width: 70%;
-    margin: 0 auto;
-    padding: 50px 0;
-    
+
+.img-second-section img{
+    width: 900px;
 }
 
-.main-fourth-section{
+
+
+.container{
     width: 70%;
     margin: 0 auto;
-    padding: 50px 0;
     
 }
 
@@ -194,10 +190,50 @@ header{
 
 
 
-.col-green{
-    height: 1000px;
-    background-color: green;
+.image-end-page img{
+    width: 100%;
+    
 }
+
+.text-final-section{
+    text-align: center;
+}
+
+.text-final-section h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.text-final-section p{
+    font-size: 20px;
+}
+
+.last-h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.last-h1{
+    text-align: center;
+    margin-bottom: 50px
+}
+
+.centre{
+    display: flex;
+    justify-content: center;
+}
+
+.final-main-button{
+    border-style: none;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 20px;
+    background-color:#8ea1e1;
+    color: white;
+
+}
+/* fine main  */
+
 
 .background-black{
     background-color: black;
@@ -209,9 +245,7 @@ header{
     height: 500px;
     padding: 20px 0;
     
-    
 }
-
 
 
 .col-orange{
