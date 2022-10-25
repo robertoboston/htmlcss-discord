@@ -50,7 +50,7 @@ header{
    
 }
 
-ul{
+.nav-ul{
     display: flex;
     justify-content: center;
     list-style: none;
@@ -58,7 +58,7 @@ ul{
 
 }
 
-li{
+.nav-li{
     color: white;
     padding: 0 40px;
 
@@ -248,45 +248,80 @@ header{
 }
 
 
-.col-orange{
-    height: 450px;
+.col-large{
     width: 40%;
-    background-color: orange;
+    color: white;
+    padding: 30px 0;
 }
 
-.col-red{
-    height: 450px;
+
+.col-large h1{
+    margin-bottom: 50px;
+    color: #7289da;
+}
+
+.col-large span{
+    font-size: 10px;
+}
+
+.ita-flag{
+    width: 20px;
+    vertical-align: middle;
+
+}
+
+.col-small{
     width: 50%;
-    background-color: red;
-    border: 1px solid black;
+    color: white;
+    padding: 40px 0;
+    
+   
+}
+
+.footer-ul{
+    list-style: none;
+    
+}
+
+li{
+    padding: 5px 0;
+}
+
+.list-title{
+    color: #7289da;
 }
 
 .footer2{
-    height: 100px;
     width: 70%;
     margin: 0 auto;
-    margin-top: 2px;
-    padding: 20px 0;
+    margin-top: 50px;
     
+}
+
+.footer-button button{
+    padding: 7px;
+    border-radius: 40px;
+    border-style: none;
+    background-color: #8ea1e1;
+    color: white;
 }
 
 
 
-.rectangle{
+.container-logo-button{
     width: 100%;
-    height: 80px;
-    background-color: tomato;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 100px;
+    
 
+}
+
+hr {
+    width: 70%;
+    margin: 0 auto;
+    color: #4a5882;
 }
  
-.footer-logo, .footer-button{
-    background-color: pink;
-    font-size: 20px;
-    margin: auto 0;
-    line-height: 2;
-    padding: 0px 5px;
 
-    
-}
+
