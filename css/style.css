@@ -11,6 +11,7 @@ body{
 /* inizio header  */
 header{
     min-height: 70px;
+
 }
 
 .navigation{
@@ -22,11 +23,13 @@ header{
 .row{
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .logo{
     width: 25%;
-    padding-top: 5px;
     
 }
 
@@ -52,15 +55,13 @@ header{
 
 .nav-ul{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     list-style: none;
-    padding-top: 15px;
 
 }
 
 .nav-li{
     color: white;
-    padding: 0 40px;
 
 }
 
@@ -99,7 +100,9 @@ header{
 }
 
 .buttons-position{
-    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
     
 }
 
@@ -234,7 +237,7 @@ header{
 }
 /* fine main  */
 
-
+/* inizio footer  */
 .background-black{
     background-color: black;
 }
