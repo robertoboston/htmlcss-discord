@@ -220,7 +220,11 @@ header{
 
 .last-h1{
     text-align: center;
-    margin-bottom: 50px
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    line-height: 5;
+    background-size: 80%;
+    
 }
 
 .centre{
