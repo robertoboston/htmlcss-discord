@@ -302,6 +302,19 @@ li{
     padding: 5px 0;
 }
 
+.social{
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    color: #7289da;
+    
+}
+ .icon li{
+    padding: 0 10px;
+    padding-left: 0;
+
+ }
+
 .list-title{
     color: #7289da;
 }
